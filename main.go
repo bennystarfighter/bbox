@@ -20,7 +20,7 @@ import (
 
 func main() {
 	if len(os.Args) != 2 {
-		println(`Supply a path to one file.`)
+		println(`Supply a path to one single file.`)
 		return
 	}
 	println(os.Args[1])
